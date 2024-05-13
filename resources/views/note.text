@@ -1,0 +1,100 @@
+
+
+    // document.addEventListener('DOMContentLoaded', function() {
+    //     const numberInputs = document.querySelectorAll('.smallInput');
+    //     numberInputs.forEach(function(input) {
+    //     input.addEventListener('input', function(e) {
+    //         const inputValue = e.target.value;
+    //         const number = parseInt(inputValue);
+    //         console.log((number));
+    //          if ( 0< number && number < 5) {
+    //                 return true;
+    //             }else{
+    //                 return false;
+    //                 alert("error");
+    //             }
+    //         });
+    //     });
+    // });
+    //   function checkPriorityRule(num){
+    //     if( 0< num && num < 5 ) return true; 
+    //     else return false;
+    //   }
+    //   let tLightPriority = []
+    //   function setPriority(e){
+    //     console.log(e.target);
+    //   }
+      $(document).ready( function(){
+        // $('.smallInput').on('input',function(){
+        //     inputVal = $(this).val();
+        //     if( 0 < inputVal && inputVal >5 ) return true;
+        //     else return false;  alert("error");
+        // })
+        
+        // $('#firstT').on('input', function(e){
+        //     let val = e.target.value;
+        //     // console.log(checkPriorityRule(val));
+        //     // if(checkPriorityRule(val)){
+        //         if(!tLightPriority.includes(val)){
+        //             if(val != ''){
+        //                 tLightPriority.push(val);
+        //             }
+        //         }else{
+        //             alert("Invalid input");
+        //             let indexData = tLightPriority.findIndex(val);
+        //             if (indexData > -1) { // only splice array when item is found
+        //                 tLightPriority.splice(indexData, 1); // 2nd parameter means remove one item only
+        //             }
+
+        //             // tLightPriority.push(val);
+        //             $(this).val("");
+        //         }
+        //         console.log('tLightPriority', tLightPriority);
+        //     // }else{
+        //     //     e.preventDefault();
+        //     //     $(this).val("");
+        //     // }
+        // });
+        // console.log(tLightPriority);
+        // $('#secondT').on('input', function(e){
+        //     let val = e.target.value;
+        //     if(checkPriorityRule(val)){
+        //         if(!tLightPriority.includes(val)){
+        //             tLightPriority.push(val);
+        //         }else{
+        //             alert("Invalid input");
+        //             $(this).val("");
+        //         }
+        //     }else{
+        //         // $(this).val("");
+        //     }
+        // });
+        // $('#thirdT').on('input', function(e){
+            
+        //     let val = e.target.value;
+        //     if(checkPriorityRule(val)){
+        //         if(!tLightPriority.includes(val)){
+        //             tLightPriority.push(val);
+        //         }else{
+        //             alert("Invalid input");
+        //             $(this).val("");
+        //         }
+        //     }else{
+        //         // $(this).val("");
+        //     }
+        // });
+        // $('#fourthT').on('input', function(e){
+        //     let val = e.target.value;
+        //     if(checkPriorityRule(val)){
+        //         if(!tLightPriority.includes(val)){
+        //             tLightPriority.push(val);
+        //         }else{
+        //             alert("Invalid input");
+        //             $(this).val("");
+        //         }
+        //     }else{
+        //         // $(this).val("");
+        //     }
+        // });
+        
+    });
